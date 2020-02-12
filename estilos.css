@@ -1,0 +1,360 @@
+body {
+    width: 99%;
+    overflow: scroll;
+}
+
+/* Estilo del texto */
+
+h1 {
+    font-family: 'Amaranth', sans-serif;
+    font-size: 80px;
+    letter-spacing: 4px;
+    margin-bottom: 5px;
+    margin-top: -528px;
+    text-align: center;
+    float: left;
+    margin-left: 12%;
+    z-index: 7;
+    position: absolute;
+
+}
+
+h2 {
+    font-family: 'Proza Libre', sans-serif;
+    text-align: center;
+    justify-content: center;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-break: 90px;
+    margin-top: -0.5%;
+    text-align: center;
+    list-style: none;
+}
+
+h5{
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    position: absolute;
+}
+
+h6{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-break: 90px;
+    margin-top: -0.5%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*Estilo contenido*/
+
+#contenedor {
+    width: 70%;
+    margin-left: 1%;
+}
+
+#lista1 {
+    column-count: 3;
+    line-height: 160%;
+    margin-top: -2%;
+    text-align: left;
+    padding-left: 9%;
+    margin-top: 1%;
+    list-style: none;
+}
+
+#lista2 {
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+    line-height: 170%;
+    margin-top: 0%;
+    text-align: center;
+}
+
+#lista3 {
+    column-count: 3;
+    margin-top: 3%;
+    margin-left: 0%;
+    list-style: none;
+}
+#redesSociales {
+    height: 15%;
+    width: 49.5%;
+    z-index: 6;
+    background-color:  rgb(172, 172, 172);
+    position: absolute;
+    float: right;
+    text-align: center;
+    margin-left: 46%;
+    margin-top: 2%;
+    opacity: 0.8;
+}
+
+#linkinsta {
+    margin-left: 32%;
+    margin-top: -4%;
+}
+
+#linklinkedin {
+    margin-top: 2%;
+    margin-left: 68%;
+}
+
+
+#logoinsta {
+    position: absolute;
+    margin-top: 0%;
+}
+
+#logolinkedin {
+    position: absolute;
+    margin-top: 3.5%;
+    margin-left: 35%;
+}
+
+#fotopersonal {
+    height: 310px;
+    width: 310px;
+    z-index: 2;
+    position: absolute;
+    padding-top: 7%;
+    clear: both;
+    margin-left: 16%;
+}
+
+#quienSoy {
+    float: left;
+    background-color: rgb(172, 172, 172);
+    margin-top: -70%;
+    margin-left: 66.3%;
+    width: 71.5%;
+    opacity: 0.9;
+    text-align: center;
+    line-height: 190%;
+}
+
+#fortalezas{
+    float: right;
+    position: absolute;
+    background-color: rgb(172, 172, 172);
+    height: 245px;
+    width: 86%;
+    z-index: 5;
+    opacity: 0.9;
+    margin-left: 8%;
+    margin-top: -27.6%;
+    text-align: center;
+} 
+
+#educacion {
+    position: absolute;
+    background-color: rgb(172, 172, 172);
+    height: 243px;
+    clear: both;
+    margin-top: -44%;
+    padding-top: 0%;
+    margin-left: 8%;
+    float: left;
+    text-align: center;
+    width: 86%;
+    opacity: 0.9;
+}
+
+#experiencia {
+    color: black;
+    background-color: rgb(172, 172, 172);
+    opacity: 0.9;
+    height: 319px;
+    position: absolute;
+    margin-top: -52.5%;
+    margin-left: 8%;
+    width: 86%;
+    text-align: center;
+}
+
+#hobbies {
+    color: black;
+    background-color: rgb(172, 172, 172);
+    opacity: 0.9;
+    height: 163px;
+    position: absolute;
+    padding-top: 10px;
+    margin-top: -26.5%;
+    padding-bottom: 70px;
+    margin-bottom: 30px;
+    margin-left: 8%;
+    width: 86%;
+    text-align: center;
+} 
+
+
+#idiomas {
+    background-color: rgb(172, 172, 172);
+    opacity: 0.9;
+    height: 18%;
+    position: absolute;
+    padding-top: 0px;
+    margin-top: -11%;
+    margin-left: 8%;
+    text-align: center;
+    width: 86%;
+}
+
+#portfolio {
+    align-content: center;
+    background-color: rgb(172, 172, 172);
+    opacity: 0.9;
+    height: 139%;
+    width: 97%;
+    position: absolute;
+    justify-content: center;
+}
+
+#imgportfolio {
+    align-content: center;
+    justify-content: center;
+}
+
+#lista4 {
+    list-style: none;
+}
+
+#lista5 {
+    list-style: none;
+    line-height: 27px;
+}
+
+
+/*Estilo imágenes de fondo y menú*/
+
+#portada {
+    background-image: url("portada.jpeg") no-repeat center top;
+    padding-left: 5%;
+    z-index: -10;
+    position: relative;
+    width: 260%;
+}
+
+#segunda {
+    background-image: url("tercera.jpeg") no-repeat center top;
+    padding-left: 0%;
+    z-index: -11;
+    position: relative;
+    width: 100%;
+    margin-top: 1%;
+}
+
+#tercera {
+    background-image: url("quinta.jpg") no-repeat center top;
+    margin-top: 1%;
+}
+
+#cuarta {
+    background-image: url("segunda.jpeg") no-repeat center top;
+    margin-top: 1%;
+}
+
+#menu {
+    display: inline-block;
+    float: left;
+    background-color: white;
+    opacity: 0.8; 
+    position: fixed;
+    height: 53%;
+    width: 7%;
+    z-index: 20;
+    text-align: left;
+    line-height: 116%;
+}
+
+/*Estilo img portfolio */
+
+#img1 {
+    float: left;
+    padding-right: 1%;
+    padding-left: 6.5%;
+}
+
+#img2 {
+    float: left;
+    padding-right: 1%;
+}
+
+#img3 {
+    float: left;
+    padding-right: 1%;
+    margin-top: 5%;
+}
+
+#img4 {
+    float: left;
+    padding-right: 1%;
+}
+
+#img5 {
+    float: left;
+    padding-right: 1%;
+    margin-top: 5%;
+}
+
+#img6 {
+    float: right;
+    margin-right: 62%;
+    margin-top: 1%;
+}
+
+#img7 {
+    float: right;
+    padding-right: 0%;
+    margin-right: 43%;
+    margin-top: -21.7%;
+}
+
+#img8 {
+    float: left;
+    padding-left: 61.4%;
+    margin-top: -21.8%;
+}
+
+#img9 {
+    float: left;
+    padding-right: 1%;
+    margin-top: 5%;
+    margin-left: 8%;
+}
+
+#img10 {
+    float: left;
+    padding-right: 1%;
+    margin-top: 5%;
+}
+
+#img11 {
+    float: left;
+    padding-right: 1%;
+    margin-top: 5%;
+}
+
+#img12 {
+    float: left;
+    padding-right: 1%;
+    margin-top: 5%;
+}
